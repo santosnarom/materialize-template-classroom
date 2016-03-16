@@ -5,7 +5,7 @@
  * Thanks for MaterializeCSS.com
  */
 
-.default_color{background-color: black !important}
+.default_color{background-color:  #3E3E4B !important}
 
 .default_color_text{color: black !important}
 
@@ -13,15 +13,18 @@
     padding: 0 15px;
 }
 
-#intro, #login, #team {padding-top: 4rem;}
+#intro, #login, #team {padding: 4rem;}
 
 
 #index-banner {
     min-height: 632px;
     max-height: 864px;
     position: relative;
+    display: flex;
     background-color: black;
-    background-image: url("../img/bg.png ");
+    background-image: url("../img/ph.png");
+    align-items: center;
+    padding: 0 !important;
 }
 
 #nav_f{
@@ -64,7 +67,7 @@
 
 .card-content a:hover {color: #2196F3;}
 
-#login, #team{background: rgb(247, 247, 247);}
+#team{background: rgb(247, 247, 247);}
 
 .text_pink{color:#EF9A9A;}
 
